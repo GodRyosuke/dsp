@@ -1,0 +1,10 @@
+cc -O -Wall sinwave.c -o sinwave -lm
+cc -O -Wall sweep.c -o sweep -lm
+cc -O -Wall impulse.c -o impulse -lm
+cc -O -Wall show.c -o show -lm
+cc -O -Wall clip.c -o clip -lm
+cc -O -Wall downconvert.c -o downconvert -lm
+cc -O -Wall addnoise.c -o addnoise -lm
+cc -O -Wall convolution.c -o convolution -lm
+cc -O -Wall filter.c -o filter -lm
+

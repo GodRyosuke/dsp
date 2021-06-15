@@ -1,0 +1,10 @@
+gcc sinwave.c -o sinwave
+gcc show.c -o show
+gcc clip.c -o clip
+
+gcc do_fft.c -o do_fft
+
+rm do_ifft do_win
+ln -s do_fft do_ifft
+ln -s do_fft do_win
+
